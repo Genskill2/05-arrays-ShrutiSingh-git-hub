@@ -58,10 +58,10 @@
 
 	int mode(int arr[], int size)
 	{
-	    int max = a[0], val;
+	    int max = arr[0], val;
 	
 
-	  for(int i = 0; i < s; i++)
+	  for(int i = 0; i < size; i++)
 	  {
 	      if(max < arr[i])
 	        max = arr[i];
